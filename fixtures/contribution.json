@@ -1,0 +1,14 @@
+{
+  "slug": "ai-security-evaluations",
+  "area": "AI security experiments",
+  "title": "Semantic similarity is not permission or query equivalence",
+  "contribution": "contributions/001-semantic-cache-evaluation.md",
+  "stage": "Actual local learned-encoder experiment on synthetic pairs; no answering LLM",
+  "topics": [
+    "ai-security",
+    "llm-security",
+    "evaluation",
+    "semantic-cache"
+  ],
+  "description": "AI security experiments: Semantic similarity is not permission or query equivalence. Actual local learned-encoder experiment on synthetic pairs; no answering LLM."
+}

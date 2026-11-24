@@ -1,0 +1,613 @@
+{
+  "scope": "16 synthetic English pair annotations; no independent adjudication, PII, real support answers or live authority",
+  "pairs": [
+    {
+      "id": "different-case",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-B",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "different-subject",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-B",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "different-epoch",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 8,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "different-corpus",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c2",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "different-release",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p2",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "different-purpose",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "legal-review",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "account-number",
+      "a": {
+        "text": "Explain receipt SYN-1001.",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "SYN-1001"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "Explain receipt SYN-1002.",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "SYN-1002"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "amount",
+      "a": {
+        "text": "Is the value one hundred rupees?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "100"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "Is the value one thousand rupees?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "1000"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "negation",
+      "a": {
+        "text": "Does the contract allow export?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "allow-export"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "Does the contract forbid export?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "forbid-export"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "notice-days",
+      "a": {
+        "text": "Is the notice forty five business days?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "45-business"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "Is the notice thirty calendar days?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "30-calendar"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "material-cache-bypass",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": false
+      },
+      "expected_reuse": false
+    },
+    {
+      "id": "equivalent-exact",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": true
+    },
+    {
+      "id": "equivalent-paraphrase",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How can I start a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": true
+    },
+    {
+      "id": "equivalent-punctuation",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "How do I open a records review ticket",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": true
+    },
+    {
+      "id": "equivalent-polite",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "Please explain how I open a records review ticket.",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": true
+    },
+    {
+      "id": "equivalent-case",
+      "a": {
+        "text": "How do I open a records review ticket?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "b": {
+        "text": "HOW DO I OPEN A RECORDS REVIEW TICKET?",
+        "scope": {
+          "bank": "SYN",
+          "subject_group": "staff-A",
+          "case": "case-A",
+          "purpose": "support",
+          "epoch": 7,
+          "corpus": "c1",
+          "release": "p1",
+          "language": "en"
+        },
+        "critical": [
+          "generic-records-ticket"
+        ],
+        "declared_eligible": true
+      },
+      "expected_reuse": true
+    }
+  ]
+}

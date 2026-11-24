@@ -1,0 +1,11 @@
+test_case_or_subject_change_denied (test_scope.ScopeTests.test_case_or_subject_change_denied) ... ok
+test_critical_values_change_denied (test_scope.ScopeTests.test_critical_values_change_denied) ... ok
+test_epoch_and_release_change_denied (test_scope.ScopeTests.test_epoch_and_release_change_denied) ... ok
+test_material_bypass_denied (test_scope.ScopeTests.test_material_bypass_denied) ... ok
+test_missing_scope_or_boolean_epoch_denied (test_scope.ScopeTests.test_missing_scope_or_boolean_epoch_denied) ... ok
+test_same_scope_positive (test_scope.ScopeTests.test_same_scope_positive) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

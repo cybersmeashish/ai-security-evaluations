@@ -1,0 +1,40 @@
+{
+  "executed_at_utc": "2026-11-24T06:56:09.093053+00:00",
+  "runtime": {
+    "python": "3.12.16",
+    "system": "Linux",
+    "machine": "aarch64"
+  },
+  "unique_regression_tests": 6,
+  "source_manifest_files": 19,
+  "local_links_checked": 10,
+  "isolation": {
+    "requested": true,
+    "probe": "blocked",
+    "errno": 101,
+    "exception": "OSError",
+    "interfaces": [
+      "lo"
+    ],
+    "default_ipv4_route": false,
+    "root_read_only": true,
+    "workspace_read_only": true,
+    "uid": 1000
+  },
+  "contribution": {
+    "slug": "ai-security-evaluations",
+    "area": "AI security experiments",
+    "title": "Semantic similarity is not permission or query equivalence",
+    "contribution": "contributions/001-semantic-cache-evaluation.md",
+    "stage": "Actual local learned-encoder experiment on synthetic pairs; no answering LLM",
+    "topics": [
+      "ai-security",
+      "llm-security",
+      "evaluation",
+      "semantic-cache"
+    ],
+    "description": "AI security experiments: Semantic similarity is not permission or query equivalence. Actual local learned-encoder experiment on synthetic pairs; no answering LLM."
+  },
+  "experiment_scope": "actual learned-encoder similarities on 16 synthetic English pairs; declared scope/entity annotations are fixture inputs, not a production authorization or extraction system",
+  "stage": "local contribution evidence; no customer or vendor outcome claim"
+}

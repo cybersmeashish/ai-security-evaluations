@@ -1,0 +1,133 @@
+{
+  "scope": "actual learned-encoder similarities on 16 synthetic English pairs; declared scope/entity annotations are fixture inputs, not a production authorization or extraction system",
+  "pairs": 16,
+  "thresholds": {
+    "0.85": {
+      "naive_accepts": 15,
+      "naive_false_reuse": 10,
+      "metadata_gated_false_reuse": 0,
+      "metadata_gated_correct_hits": 5
+    },
+    "0.9": {
+      "naive_accepts": 15,
+      "naive_false_reuse": 10,
+      "metadata_gated_false_reuse": 0,
+      "metadata_gated_correct_hits": 5
+    },
+    "0.95": {
+      "naive_accepts": 12,
+      "naive_false_reuse": 8,
+      "metadata_gated_false_reuse": 0,
+      "metadata_gated_correct_hits": 4
+    },
+    "0.97": {
+      "naive_accepts": 12,
+      "naive_false_reuse": 8,
+      "metadata_gated_false_reuse": 0,
+      "metadata_gated_correct_hits": 4
+    }
+  },
+  "model_repository": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "onnxruntime": "1.32.0",
+  "encoding_batch_ms": 63.91451400122605,
+  "answering_LLM_executed": false,
+  "rows": [
+    {
+      "pair_id": "different-case",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "different-subject",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "different-epoch",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "different-corpus",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "different-release",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "different-purpose",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "account-number",
+      "cosine": 0.9796025305217682,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "amount",
+      "cosine": 0.9245293156947142,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "negation",
+      "cosine": 0.9455664343788077,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "notice-days",
+      "cosine": 0.7672531256818305,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "material-cache-bypass",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": false,
+      "declared_metadata_gate": false
+    },
+    {
+      "pair_id": "equivalent-exact",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": true,
+      "declared_metadata_gate": true
+    },
+    {
+      "pair_id": "equivalent-paraphrase",
+      "cosine": 0.9043350517661836,
+      "expected_reuse": true,
+      "declared_metadata_gate": true
+    },
+    {
+      "pair_id": "equivalent-punctuation",
+      "cosine": 0.9949278012351453,
+      "expected_reuse": true,
+      "declared_metadata_gate": true
+    },
+    {
+      "pair_id": "equivalent-polite",
+      "cosine": 0.9726891790967532,
+      "expected_reuse": true,
+      "declared_metadata_gate": true
+    },
+    {
+      "pair_id": "equivalent-case",
+      "cosine": 0.9999999999999998,
+      "expected_reuse": true,
+      "declared_metadata_gate": true
+    }
+  ]
+}

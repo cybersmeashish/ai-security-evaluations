@@ -1,0 +1,17 @@
+pair_id,cosine,expected_reuse,declared_metadata_gate
+different-case,0.9999999999999998,False,False
+different-subject,0.9999999999999998,False,False
+different-epoch,0.9999999999999998,False,False
+different-corpus,0.9999999999999998,False,False
+different-release,0.9999999999999998,False,False
+different-purpose,0.9999999999999998,False,False
+account-number,0.9796025305217682,False,False
+amount,0.9245293156947142,False,False
+negation,0.9455664343788077,False,False
+notice-days,0.7672531256818305,False,False
+material-cache-bypass,0.9999999999999998,False,False
+equivalent-exact,0.9999999999999998,True,True
+equivalent-paraphrase,0.9043350517661836,True,True
+equivalent-punctuation,0.9949278012351453,True,True
+equivalent-polite,0.9726891790967532,True,True
+equivalent-case,0.9999999999999998,True,True
